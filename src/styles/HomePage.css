@@ -1,0 +1,87 @@
+#fecha, #info-homep{
+    color: #03707F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    
+}
+
+#info-homep{
+    width: 50%;
+    height: 159px;
+    flex-shrink: 0;
+    padding: 50px;
+}
+
+#confondo{
+    border-radius: 43px;
+    background: linear-gradient(180deg, #0096A8 -29.92%, #C6FFF8 99.74%);
+    backdrop-filter: blur(2px);
+  
+    height: 222px;
+    margin: 50px;
+    flex-shrink: 0;
+    z-index: 9999999;
+    position: relative;
+}
+
+#primero-arriba{
+    display: flex;
+    justify-content: space-around;
+}
+
+#docInfo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 40%;
+    top:5%;
+    
+}
+
+#btn{
+    cursor: pointer;
+    border-radius: 58.5px;
+    background: #00414F;
+    width: 90px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    top:10%;
+    font-size: 10px;
+    flex-shrink: 0;
+    
+}
+
+#drName{
+    font-size: 30px;
+}
+#flecha{
+    font-size: 60px;
+    cursor: pointer;
+}
+#flecha, #txt-btn{
+    font-family: Poppins;
+    color: white;
+}
+
+#drName,#drEspecialidad,#flecha{
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#img{
+    position: absolute;
+    top:-81%;
+    
+    height: 402px;
+}
